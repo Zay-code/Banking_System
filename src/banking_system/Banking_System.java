@@ -15,7 +15,8 @@ public class Banking_System {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        SignIn frmSignIn = new SignIn();
+        frmSignIn.setVisible(true);
     }
     
 }
